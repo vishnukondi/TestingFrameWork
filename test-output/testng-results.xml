@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="103200" started-at="2018-06-02T10:59:49Z" finished-at="2018-06-02T11:01:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="103200" started-at="2018-06-02T10:59:49Z" finished-at="2018-06-02T11:01:32Z">
+      <class name="com.framework.Test.LoginPageTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.framework.Test.LoginPageTest@1f28c152]" name="openBrowser" is-config="true" duration-ms="29659" started-at="2018-06-02T10:59:49Z" finished-at="2018-06-02T11:00:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openApplication()[pri:1, instance:com.framework.Test.LoginPageTest@1f28c152]" name="openApplication" duration-ms="53040" started-at="2018-06-02T11:00:19Z" finished-at="2018-06-02T11:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="LoginPageFieldsAvailablityTest()[pri:2, instance:com.framework.Test.LoginPageTest@1f28c152]" name="LoginPageFieldsAvailablityTest" duration-ms="20304" started-at="2018-06-02T11:01:12Z" finished-at="2018-06-02T11:01:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageFieldsAvailablityTest -->
+      </class> <!-- com.framework.Test.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
