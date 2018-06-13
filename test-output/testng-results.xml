@@ -2,23 +2,50 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="103200" started-at="2018-06-02T10:59:49Z" finished-at="2018-06-02T11:01:32Z">
+  <suite name="Default suite" duration-ms="71949" started-at="2018-06-13T06:32:48Z" finished-at="2018-06-13T06:34:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="103200" started-at="2018-06-02T10:59:49Z" finished-at="2018-06-02T11:01:32Z">
+    <test name="Default test" duration-ms="71949" started-at="2018-06-13T06:32:48Z" finished-at="2018-06-13T06:34:00Z">
       <class name="com.framework.Test.LoginPageTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.framework.Test.LoginPageTest@1f28c152]" name="openBrowser" is-config="true" duration-ms="29659" started-at="2018-06-02T10:59:49Z" finished-at="2018-06-02T11:00:19Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.framework.Test.LoginPageTest@5ae63ade]" name="openBrowser" is-config="true" duration-ms="14098" started-at="2018-06-13T12:01:59Z" finished-at="2018-06-13T12:02:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="openApplication()[pri:1, instance:com.framework.Test.LoginPageTest@1f28c152]" name="openApplication" duration-ms="53040" started-at="2018-06-02T11:00:19Z" finished-at="2018-06-02T11:01:12Z">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.framework.Test.LoginPageTest@5ae63ade]" name="openApplication" is-config="true" duration-ms="34893" started-at="2018-06-13T12:02:13Z" depends-on-methods="com.framework.commonfunctions.CommonOperations.openBrowser" finished-at="2018-06-13T12:02:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method status="PASS" signature="LoginPageFieldsAvailablityTest()[pri:2, instance:com.framework.Test.LoginPageTest@1f28c152]" name="LoginPageFieldsAvailablityTest" duration-ms="20304" started-at="2018-06-02T11:01:12Z" finished-at="2018-06-02T11:01:32Z">
+        <test-method status="PASS" signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.framework.Test.LoginPageTest@5ae63ade]" name="LoginTest" duration-ms="52091" started-at="2018-06-13T12:03:07Z" data-provider="getLoginTestData" finished-at="2018-06-13T12:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vishnuvardhankondi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[naruto1257]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginPageFieldsAvailablityTest -->
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="loginPageValidation(java.lang.String)[pri:0, instance:com.framework.Test.LoginPageTest@5ae63ade]" name="loginPageValidation" duration-ms="307" started-at="2018-06-13T12:03:59Z" data-provider="getLoginPageValidationTestData" depends-on-methods="com.framework.Test.LoginPageTest.LoginTest" finished-at="2018-06-13T12:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vishnuvardhan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageValidation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.framework.Test.LoginPageTest@5ae63ade]" name="closeBrowser" is-config="true" duration-ms="909" started-at="2018-06-13T12:04:00Z" finished-at="2018-06-13T12:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- com.framework.Test.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

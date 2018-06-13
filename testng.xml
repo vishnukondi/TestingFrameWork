@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="FirstSuite">
 
-	<test name="FirstTest">
+
+<suite name="HomePage">
+	<test name="LoginPage">
 		<classes>
-			<class name="com.framework.commonfunctions.CommonOperations">
+			
+			<class name="com.framework.Test.LoginPageTest">
+				<methods>
+					<include name="LoginPageFieldsAvailablityTest"></include>
+				</methods>
+			</class>
+			
+			<class name="com.framework.Test.AddProductToCart">
 				
 			</class>
+
 		</classes>
+
 	</test>
-	 
+
 </suite>
